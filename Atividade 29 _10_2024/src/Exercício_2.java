@@ -4,9 +4,9 @@ public class Exercício_2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numSorteado;
-        int numInformado = 0;
-        int tentativas = 7;
+        double numSorteado;
+        double numInformado = 0;
+        double tentativas = 7;
 
         // Solicitar número ao usuário
         while (numInformado <= 0 || numInformado > 100) {
